@@ -742,13 +742,11 @@
 		<section class="main nopad-b">
 			<div class="row">
 				<div id="text-main" class="col-5 text-main" style="visibility: visible; right: 0%; opacity: 1;">
-					<h1>Subscriber Notification Emails</h1>
-					<p class="author">Campaign Monitor
-						<span class="date">February 2013</span>
+					<h1>Plate</h1>
+					<p class="author">Teamwork Website
+						<span class="date">December 2017</span>
 					</p>
-					<p>To help email marketers keep up to date with their new subscriber activity, I was tasked with designing and developing
-						subscriber notification emails. In this case study, I’ll give you a behind the scenes look at the design process behind
-						this feature.</p>
+					<p>To help a team to connect with each other and arrange their work more suitable as well as convenient. The main part of the front-end is coded by me while the back-end and database are maintained by my teammates.</p>
 				</div>
 				<div id="img-main" class="col-7 align-c" style="visibility: visible; left: 0%; opacity: 1;">
 					<img class="major preload" src="./plate_files/main.jpg" alt="subscriber notification email">
@@ -765,11 +763,8 @@
 				<div class="row">
 					<div class="col-12">
 						<div class="text-center nomargin">
-							<h2>The challenge</h2>
-							<p class="nomargin">The goal of subscriber notifications was to keep email marketers up to date with their new email subscriber activity
-								and, ideally, help measure the growth of their lists. While statistics are great, we saw an opportunity to also give
-								marketers a way to get to know the people subscribing to their lists. Who were they? Where were they from? This would
-								be much more useful than a list of faceless email addresses.</p>
+							<h2>Creating a New task</h2>
+							<p class="nomargin">You can fill in the details of the task in the corresponding form. The task page supports the users to set the deadline and upload the pictures. Users can choose the members in their team and allow them to participate in this project.</p>
 						</div>
 					</div>
 				</div>
@@ -786,19 +781,9 @@
 				<div class="row">
 					<div class="col-12">
 						<div class="text-center">
-							<h2>What kind of notifications should we send?</h2>
-							<p>As subscriber activity can vary greatly amongst marketers, we needed to ensure that our solution catered to both high
-								and low amounts of activity. Also, some people would be very interested in keeping up to date with their subscribers,
-								while others might want to be updated less frequently or not at all. As a result, we decided to provide two emails
-								that people could opt in to receive, as seen in the simple user journey diagram above.</p>
-							<ol class="ol">
-								<li>
-									<span class="strong">Instant notification emails:</span> generated every time a person subscribes, for those keen marketers with less
-									subscriber activity.</li>
-								<li>
-									<span class="strong">Summary notification emails:</span> sent daily, weekly or monthly depending on the marketer’s preferences. Summary
-									emails are for those interested in a higher-level breakdown of their subscriber activity.</li>
-							</ol>
+							<h2>The Relationship Table and API</h2>
+							<p>This is the back-end part. We devided the front-end part and the back-end part. We use the API to exchange data. </p>
+							
 						</div>
 					</div>
 				</div>
@@ -810,14 +795,9 @@
 				<div class="row">
 					<div class="col-12">
 						<div class="text-center">
-							<h2>The summary notification email</h2>
-							<p>We can see the modularised summary email in action above. The ‘Meet some of your new subscribers’ block only displays
-								if we have avatar image data available for any of the previous week’s subscribers. Similarly, if there’s no location
-								data for that week, the location block will be left out of the email.</p>
-							<p>The visual design was kept clean and simple to keep the focus on the content. The map acts as a feature image for
-								the email, giving it the visual weight it needs at the top. Simple horizontal lines are used to separate the email
-								into sections and each section seamlessly connects to the next. Bright green is used to draw attention to the call
-								to action button at the bottom of the email to drive users back into the app.</p>
+							<h2>The Home Page of Plate</h2>
+							<p>We can see the home page of Plate here. It introduces the general features of the site to help users quickly understand this site.</p>
+							
 						</div>
 					</div>
 				</div>
@@ -829,19 +809,11 @@
 				<div class="row">
 					<div class="col-12">
 						<div class="text-center">
-							<h2>The instant notification email</h2>
-							<p>The instant email above also has a dynamically changing design, depending on the data collected for a subscriber.
-								We wanted this email to give marketers a snapshot of who the subscriber is and where they’re from. The subscriber’s
-								name acts as a header next to a large avatar image to personalise the email, while the location map is split into
-								two to show the location from different zoom levels and add visual interest.</p>
-							<p>I designed and coded the email to be responsive and found myself knee-deep in nested tables and inline CSS (which
-								was lots of fun as you can imagine). Typography becomes increasingly important for readability on smaller screens,
-								so great care was taken in setting font sizes, weights and padding. I like to be generous with font sizes on mobiles,
-								not going any smaller than 14px in size. I also centre-aligned the text to balance out the design.</p>
-							<p>For this email I decided to set a breakpoint at 600px width, as this is the point at which the desktop email gets
-								squashed. The email width becomes flexible below this point rather than simply jumping to a fixed 320px width. A
-								flexible or fluid email design is a great way of ensuring that your email will fill the screen nicely on any sized
-								mobile device, which is becoming increasingly important with the ever-growing array of new mobile devices.</p>
+							<h2>The Calendar</h2>
+							<p>
+								The calendar can show how your team arrange the work and you can clearly see your schedule.</p>
+							
+							<p>The style of the website is Material Design by google. The main technique I use to create the website are Node.js, Vue, jQuery.</p>
 						</div>
 					</div>
 				</div>
